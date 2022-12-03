@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    grid-template-rows: 100px 1fr 100px ;
+}
+
+.container .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container .header h1{
+    color: #fff;
+}
+
+.container .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.footer .fa-heart {
+    color: #ff0000;
+    margin: 0px 5px 0px 5px;
+}
+
+.footer b {
+    margin: 0px 5px 0px 5px;
+    color: #fff;
+}
+
+.footer div i {
+    font-size: 2em;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 10px;
+    padding: 5px;
+}
